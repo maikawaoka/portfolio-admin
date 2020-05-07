@@ -40,4 +40,4 @@ buildNumber.properties
 .settings/
 target/
 .DS_Store/
-.metadata/
+.metadata

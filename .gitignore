@@ -39,4 +39,5 @@ buildNumber.properties
 # original
 .settings/
 target/
-.DS_Store/
+.DS_Store
+.metadata

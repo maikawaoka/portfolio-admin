@@ -1,4 +1,5 @@
 package com.seattleacademy.team20;
+
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.HashMap;

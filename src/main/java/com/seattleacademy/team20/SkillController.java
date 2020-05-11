@@ -108,7 +108,7 @@ public class SkillController {
   Map<String, List<Skill>> skillMap = skills.stream().collect(Collectors.groupingBy(Skill::getCategory));/*ここ*/
 	for (Map.Entry<String, List<Skill>> entry : skillMap.entrySet()) {
 	      map = new HashMap<>();
-	      map.put("categoey", entry.getKey());
+	      map.put("category", entry.getKey());
 	      map.put("skill", entry.getValue());
 	      dataList.add(map);
 	      }
